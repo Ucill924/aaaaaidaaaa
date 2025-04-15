@@ -111,7 +111,6 @@ def perform_task_and_claim_rewards(access_token, task_id, task_name):
         return False
     
 def save_mnemonic_to_file(mnemonic):
-    """Fungsi untuk menyimpan mnemonic ke file"""
     with open("mnemonic.txt", "a") as file:
         file.write(mnemonic + "\n")
     print(f"{Fore.YELLOW}Mnemonic saved to mnemonic.txt{Fore.RESET}")
