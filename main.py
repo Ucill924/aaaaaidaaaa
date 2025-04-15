@@ -75,7 +75,6 @@ def join_campaign(access_token):
 
 
 def perform_task_and_claim_rewards(access_token, task_id, task_name):
-    """Fungsi untuk melakukan task dan klaim rewards menggunakan requests"""
     task_url = f"https://back.aidapp.com/questing/mission-activity/{task_id}"
     reward_url = f"https://back.aidapp.com/questing/mission-reward/{task_id}"
 
